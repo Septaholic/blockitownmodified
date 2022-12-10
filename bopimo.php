@@ -5,7 +5,7 @@ class bopimo {
 	public $pdo = false;
 
 	public function __construct () {
-		$this->pdo = new PDO( 'mysql:host=127.0.0.1;dbname=bopimo', 'root', ',kn9x2?.!\mfJAW?' ); //declare PDO
+		$this->pdo = new PDO( 'mysql:host=127.0.0.1;dbname=epiz_33173276_db', 'epiz_33173276', 'blockitown/noabuse#' ); //declare PDO
 	}
 	/*
 	BASIC FUNCTIONS
@@ -40,7 +40,7 @@ class bopimo {
 
 	public function insert ( string $table, array $values )
 	{
-		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=bopimo', 'root', ',kn9x2?.!\mfJAW?' ); //declare PDO
+		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=epiz_33173276_db', 'epiz_33173276', 'blockitown/noabuse#' ); //declare PDO
 
 		$binds = [];
 
@@ -85,7 +85,7 @@ class bopimo {
 
 	public function update_ ( string $table, array $values, array $where )
 	{
-		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=bopimo', 'root', ',kn9x2?.!\mfJAW?' );
+		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=epiz_33173276_db', 'epiz_33173276', 'blockitown/noabuse#' );
 
 		$binds = [];
 
@@ -130,7 +130,7 @@ class bopimo {
 
 	public function look_for ( string $table, array $values )
 	{
-		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=bopimo', 'root', ',kn9x2?.!\mfJAW?' );
+		$pdo = new PDO( 'mysql:host=127.0.0.1;dbname=epiz_33173276_db', 'epiz_33173276', 'blockitown/noabuse#' );
 		$values_fixed = [];
 		$true_values = [];
 		$columns_fixed = [];
